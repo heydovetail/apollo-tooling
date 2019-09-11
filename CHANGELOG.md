@@ -3,7 +3,7 @@
 ## Upcoming
 
 - `apollo`
-  - <First `apollo` related entry goes here>
+  - Use "table" package for tabular output and word wrap support [#1524](https://github.com/apollographql/apollo-tooling/pull/1524)
 - `apollo-codegen-core`
   - Replace instanceof checks with their respective predicates [#1518](https://github.com/apollographql/apollo-tooling/pull/1518)
 - `apollo-codegen-flow`
