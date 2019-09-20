@@ -210,11 +210,6 @@ export default class Generate extends ClientCommand {
                 );
               };
 
-              // project.validationDidFinish(write);
-              project.onDiagnostics(({ uri }) => {
-                write();
-              });
-
               const writtenFiles = write();
 
               task.title = `Generating query files with '${inferredTarget}' target - wrote ${writtenFiles} files`;
